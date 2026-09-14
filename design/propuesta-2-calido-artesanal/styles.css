@@ -80,23 +80,11 @@ section[id], div[id] { scroll-margin-top: 100px; }
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  line-height: 1;
   flex-shrink: 0;
 }
-.logo-wordmark {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 1px;
-  color: var(--color-cream);
-}
-.logo-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--color-accent);
-  flex-shrink: 0;
+.logo-image {
+  height: 56px;
+  width: auto;
 }
 
 .main-nav {
@@ -361,7 +349,7 @@ section[id], div[id] { scroll-margin-top: 100px; }
   :root { --section-padding-x: 20px; }
 
   .site-header { height: 72px; gap: 20px; }
-  .logo-wordmark { font-size: 22px; }
+  .logo-image { height: 44px; }
   .main-nav { gap: 20px; justify-content: flex-start; }
 
   .hero { min-height: 620px; }
